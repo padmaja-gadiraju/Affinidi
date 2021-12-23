@@ -1,0 +1,83 @@
+body {
+  background-image: url(https://pbs.twimg.com/profile_images/1460833200100446209/Q8zvoyk5_400x400.jpg);
+  background-repeat: no-repeat;
+  background-size: 500px 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.div {
+  width: 250px;
+  border: 2px solid #ccc;
+  padding: 30px;
+  background: #fff;
+  border-radius: 15px;
+} 
+input {
+  display: block;
+  border: 2px solid #ccc;
+  width: 95%;
+  padding: 2px;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+label {
+  color: rgb(19, 19, 18);
+  font-size: 18px;
+  padding: 10px;
+}
+button {
+  float: right;
+  background: rgb(191, 255, 171);
+  padding: 10px 15px;
+  color: rgb(12, 15, 12);
+  border-radius: 5px;
+  margin-right: 10px;
+  border: none;
+}
+button:hover {
+  background-color: green;
+  cursor: pointer;
+}
